@@ -1,0 +1,25 @@
+{
+    "name": "Mindful Chat - AI Depression Support",
+    "short_name": "Mindful Chat",
+    "description": "An AI-powered chat application providing empathetic support for people dealing with depression",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiM2MzY2ZjEiLz4KPHBhdGggZD0iTTk2IDQ4QzEwOC4yODQgNDggMTE4IDU3LjcxNiAxMTggNzBWNzBDMTE4IDgyLjI4NCAxMDguMjg0IDkyIDk2IDkyQzgzLjcxNiA5MiA3NCA4Mi4yODQgNzQgNzBWNzBDNzQgNTcuNzE2IDgzLjcxNiA0OCA5NiA0OFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik05NiAxMDBDMTEwLjMzOSAxMDAgMTIyIDExMS42NjEgMTIyIDEyNlYxNDZDMTIyIDE2MC4zMzkgMTEwLjMzOSAxNzIgOTYgMTcyQzgxLjY2MSAxNzIgNzAgMTYwLjMzOSA3MCAxNDZWMTI2QzcwIDExMS42NjEgODEuNjYxIDEwMCA5NiAxMDBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiM2MzY2ZjEiLz4KPHBhdGggZD0iTTI1NiAxMjhDMjg4LjU2OSAxMjggMzE2IDE1NS40MzEgMzE2IDE4OFYxODhDMzE2IDIyMC41NjkgMjg4LjU2OSAyNDggMjU2IDI0OEMyMjMuNDMxIDI0OCAxOTYgMjIwLjU2OSAxOTYgMTg4VjE4OEMxOTYgMTU1LjQzMSAyMjMuNDMxIDEyOCAyNTYgMTI4WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI1NiAyNjZDMjk0LjU2OSAyNjYgMzI2IDI5Ny40MzEgMzI2IDMzNlYzODRDMzI2IDQyMi41NjkgMjk0LjU2OSA0NTQgMjU2IDQ1NEMyMTcuNDMxIDQ1NCAxODYgNDIyLjU2OSAxODYgMzg0VjMzNkMxODYgMjk3LjQzMSAyMTcuNDMxIDI2NiAyNTYgMjY2WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+            "sizes": "512x512",
+            "type": "image/svg+xml"
+        }
+    ],
+    "categories": ["health", "lifestyle", "utilities"],
+    "lang": "en",
+    "dir": "ltr"
+}
