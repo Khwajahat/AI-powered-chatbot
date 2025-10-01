@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Game Recommender</title>
+	<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>Game Recommender</h1>
+		<p>Enter your hardware. You can type model names (e.g., i5-8400, GTX 1060) or rough scores. RAM should be in GB.</p>
+
+		<form id="spec-form" class="form-grid">
+			<div class="field">
+				<label for="cpu">CPU</label>
+				<input id="cpu" name="cpu" placeholder="e.g., Ryzen 5 3600 or 14000" />
+			</div>
+			<div class="field">
+				<label for="gpu">GPU</label>
+				<input id="gpu" name="gpu" placeholder="e.g., RTX 3060 or 17000" />
+			</div>
+			<div class="field">
+				<label for="ram">RAM (GB)</label>
+				<input id="ram" name="ram" placeholder="e.g., 16" />
+			</div>
+			<div class="field">
+				<label for="preferred-genre">Preferred Genre</label>
+				<select id="preferred-genre">
+					<option value="any" selected>Any</option>
+					<option value="BR Shooter">BR Shooter</option>
+					<option value="Tactical Shooter">Tactical Shooter</option>
+					<option value="Battle Royale">Battle Royale</option>
+					<option value="Action">Action</option>
+					<option value="RPG">RPG</option>
+					<option value="Sandbox">Sandbox</option>
+					<option value="Action RPG">Action RPG</option>
+					<option value="Racing">Racing</option>
+					<option value="Hero Shooter">Hero Shooter</option>
+					<option value="Roguelike">Roguelike</option>
+				</select>
+			</div>
+			<div class="actions">
+				<button type="submit" class="btn primary">Get Suggestions</button>
+				<button type="button" id="clear-btn" class="btn subtle">Clear</button>
+			</div>
+		</form>
+
+		<div class="presets">
+			<span>Presets:</span>
+			<button type="button" class="btn chip" data-preset="low">Low-end</button>
+			<button type="button" class="btn chip" data-preset="mid">Mid-range</button>
+			<button type="button" class="btn chip" data-preset="high">High-end</button>
+		</div>
+
+		<div class="filters">
+			<label for="genre-filter">Filter by genre</label>
+			<select id="genre-filter">
+				<option value="all" selected>All genres</option>
+			</select>
+		</div>
+
+		<div id="result" class="result"></div>
+	</div>
+	<script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+title,genre,min_cpu,min_gpu,min_ram,rec_cpu,rec_gpu,rec_ram
+Apex Legends,BR Shooter,8000,8000,6,12000,12000,8
+Valorant,Tactical Shooter,6000,4500,4,9000,8000,8
+Fortnite,Battle Royale,7000,6000,6,11000,10000,8
+GTA V,Action,7000,6000,8,11000,9000,12
+Cyberpunk 2077,RPG,12000,13000,8,16000,17000,16
+The Witcher 3,RPG,7000,6000,6,10000,9000,8
+Minecraft,Sandbox,3000,2000,4,6000,4000,8
+CS2,Tactical Shooter,7000,6000,8,11000,9000,12
+Elden Ring,Action RPG,12000,13000,12,16000,17000,16
+Forza Horizon 5,Racing,10000,11000,8,14000,15000,16
+Overwatch 2,Hero Shooter,7000,6000,6,10000,9000,8
+Hades,Roguelike,4000,3000,4,7000,6000,8
